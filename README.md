@@ -1,1 +1,1 @@
-# TechSchole-Web
+# TechSchole-Company-Website

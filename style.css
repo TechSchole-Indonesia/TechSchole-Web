@@ -1,0 +1,140 @@
+/* https://colorhunt.co/palette/121481ffeae3ffcbcbffb1b1 */
+.topnav{
+overflow: hidden;
+background-color: #121481;
+/* color: aliceblue; */
+
+/* .body{
+    margin: 0;
+} */
+}
+.topnav a{
+    float:left;
+    color: #FFEAE3;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    /* font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style:inherit; */
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.content{
+    background-color: #FFEAE3;
+    padding: 10px;
+}
+.content h1{
+    
+    display: block;
+    color: #121481;
+    text-align: center;
+    text-decoration: solid;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.about h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing:auto;
+    font-weight: 600;
+    font-style: normal;
+    display: block;
+    color: #121481;
+
+}
+.about h3{
+    border-left: 10px ridge #FFB1B1;
+}
+.about p{
+    background-color:#FFCBCB ;
+    border:2px ridge #121481;
+    border-radius: 5px;
+    /* border: 1px ridge #121481; */
+    
+    padding: 10px;
+    line-height: 1.66em;
+   margin: 0;
+   font-size: 16px;
+    }
+
+    /* .mission p{
+    float: left;
+        background-color:#FFCBCB ;
+        border:2px ridge #121481;
+        border-radius: 5px;
+        padding: 10px;
+        line-height: 1.66em;
+       margin: 0;
+       font-size: 16px;
+        }
+     */
+* {
+  box-sizing: border-box;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.body{
+    margin: 0;
+}
+     .mission h3{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing:auto;
+        font-weight: 600;
+        font-style: normal;
+        display: block;
+        color: #121481;
+    
+    }
+    .mission h3{
+        border-left: 10px ridge #FFB1B1;
+    }     
+.mission p{
+    background-color:#FFCBCB ;
+    border:3px solid #FFB1B1;
+    border-radius: 5px;
+    /* padding: 10px; */
+    line-height: 1.66em;
+   margin: 0;
+   font-size: 16px;
+}
+.ul.mis {
+    list-style-type: circle;
+    
+}
+
+.footer {
+    color: #FFEAE3;
+  
+    background-color:#121481 ;
+    padding: 20px;
+  }
+  .footer p {
+    
+    color: #FFEAE3;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .footer a{
+    color: #FFCBCB;
+    font-family: "Montserrat", sans-serif;
+  }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
