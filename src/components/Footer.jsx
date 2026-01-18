@@ -1,5 +1,4 @@
-import React from 'react';
-import { Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { LinkedinIcon, InstagramIcon, MapPin } from 'lucide-react';
 import logo from '../assets/logo.png';
 
 const Footer = () => {
@@ -11,7 +10,7 @@ const Footer = () => {
                     {/* Brand Info */}
                     <div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.5rem' }}>
-                            <img src="public/TechSchole Logo.png" alt="TechSchole" style={{ height: '32px' }} />
+                            <img src={logo} alt="TechSchole" style={{ height: '32px' }} />
                             <span style={{ fontSize: '1.5rem', fontWeight: '800', color: 'white' }}>TechSchole</span>
                         </div>
                         <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, maxWidth: '300px' }}>
@@ -35,10 +34,10 @@ const Footer = () => {
                         <h4 style={{ fontWeight: '700', marginBottom: '1.5rem', color: 'white' }}>Follow Us</h4>
                         <div style={{ display: 'flex', gap: '1rem' }}>
                             <a href="https://www.linkedin.com/company/techschole" style={{ background: 'rgba(255,255,255,0.1)', padding: '0.75rem', borderRadius: '50%', border: '1px solid rgba(255,255,255,0.2)', color: 'white' }}>
-                                <Linkedin size={24} />
+                                <LinkedinIcon size={24} />
                             </a>
                             <a href="#" style={{ background: 'rgba(255,255,255,0.1)', padding: '0.75rem', borderRadius: '50%', border: '1px solid rgba(255,255,255,0.2)', color: 'white' }}>
-                                <Instagram size={24} />
+                                <InstagramIcon size={24} />
                             </a>
                         </div>
                     </div>
