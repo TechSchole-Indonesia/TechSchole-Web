@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -6,6 +6,9 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const location = useLocation();
+    
+    // Use import.meta.env.BASE_URL for correct path in both dev and production
+    const logoUrl = `${import.meta.env.BASE_URL}TechSchole Logo.png`;
 
     useEffect(() => {
         const handleScroll = () => {
@@ -46,6 +49,7 @@ const Navbar = () => {
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 {/* Logo */}
                 <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}>
+                    <img src={logoUrl} alt="TechSchole" style={{ height: '32px' }} />
                     <h1 style={{ fontSize: '1.5rem', fontWeight: '800', margin: 0, color: (scrolled || location.pathname !== '/') ? 'var(--primary-dark)' : 'white' }}>TechSchole</h1>
                 </Link>
 
