@@ -1,17 +1,19 @@
 import React from 'react';
-import ServiceOfferings from '../components/ServiceOfferings'; // Reusing for now, can rename component later
+import FeaturedProduct from '../components/FeaturedProduct';
+import CorePillars from '../components/CorePillars';
 import CTA from '../components/CTA';
 
 const Product = () => {
     return (
         <div className="page-transition" style={{ paddingTop: '80px' }}>
             <div style={{ background: 'white', padding: '4rem 0 2rem', textAlign: 'center', color: 'var(--text-dark)' }}>
-                <h1 className="fade-in-up" style={{ fontSize: '3rem', fontWeight: '800', color: 'var(--primary)' }}>Our Products</h1>
-                <p style={{ color: 'var(--primary)', maxWidth: '600px', margin: '1rem auto' }}>
-                    Kursus teknologi terkini untuk mengembangkan keterampilan digital masa depan.
+                <h1 className="fade-in-up" style={{ fontSize: '3rem', fontWeight: '800', color: 'var(--primary)' }}>Our Services & Products</h1>
+                <p style={{ color: '#64748b', maxWidth: '600px', margin: '1rem auto' }}>
+                    A.I, data, and web development solutions — plus ready-to-deploy products customizable to your business.
                 </p>
             </div>
-            <ServiceOfferings />
+            <CorePillars />
+            <FeaturedProduct />
             <CTA />
         </div>
     );

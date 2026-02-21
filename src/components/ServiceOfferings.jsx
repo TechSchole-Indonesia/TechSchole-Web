@@ -1,23 +1,23 @@
 import React from 'react';
-import { Bot, Lightbulb, BarChart3 } from 'lucide-react';
+import { Bot, Globe, BarChart3 } from 'lucide-react';
 
 const services = [
     {
-        title: "Artificial Intelligence",
-        desc: "Implementation of cutting-edge AI tools and custom solutions to automate processes and generate insights.",
+        title: "A.I Consulting",
+        desc: "From strategy to deployment — we help businesses integrate artificial intelligence to automate workflows, unlock insights, and stay ahead of the competition.",
         icon: <Bot size={48} />,
         bg: "linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%)"
     },
     {
-        title: "Strategic Innovation",
-        desc: "Comprehensive roadmaps and strategic frameworks to navigate the complexities of digital transformation.",
-        icon: <Lightbulb size={48} />,
+        title: "Data Consulting",
+        desc: "We design and build modern data architectures, pipelines, and dashboards that turn scattered information into clear, actionable business intelligence.",
+        icon: <BarChart3 size={48} />,
         bg: "linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%)"
     },
     {
-        title: "Data Engineering",
-        desc: "Building the robust data infrastructure required to power intelligent systems and organizational efficiency.",
-        icon: <BarChart3 size={48} />,
+        title: "Web Development",
+        desc: "High-performance websites and web applications built with modern frameworks — from landing pages to full-scale platforms tailored to your needs.",
+        icon: <Globe size={48} />,
         bg: "linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%)"
     }
 ];
@@ -73,7 +73,7 @@ const ServiceOfferings = () => {
                     <h3
                         style={{ fontSize: '2rem', fontWeight: '800', background: 'linear-gradient(to right, #ffffff, #94a3b8)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}
                     >
-                        "DATA as the Foundation & A.I as the Enabler"
+                        "Insight-Driven Strategy, Technology-Powered Execution"
                     </h3>
                 </div>
 

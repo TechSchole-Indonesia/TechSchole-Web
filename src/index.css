@@ -1,20 +1,20 @@
 :root {
-  --primary: #121481;
-  /* TechSchole Deep Blue */
-  --primary-dark: #0a0b5c;
-  /* Darker Blue */
-  --secondary: #FFB1B1;
-  /* Salmon Pink */
-  --accent: #FFCBCB;
-  /* Soft Pink */
-  --dark-bg: #05062d;
-  /* Dark Deep Blue */
+  --primary: #0f1b3d;
+  /* Deep Navy */
+  --primary-dark: #080e1f;
+  /* Near Black */
+  --secondary: #00d4ff;
+  /* Electric Cyan */
+  --accent: #f0b429;
+  /* Warm Gold */
+  --dark-bg: #080e1f;
+  /* Near Black */
   --light-bg: #ffffff;
   /* White */
-  --text-dark: #121481;
-  /* Deep Blue Text */
-  --text-light: #ffffff;
-  /* White */
+  --text-dark: #0f1b3d;
+  /* Deep Navy */
+  --text-light: #e8edf5;
+  /* Cool White */
   --glass: rgba(255, 255, 255, 0.1);
   --glass-border: rgba(255, 255, 255, 0.2);
 
@@ -243,4 +243,20 @@ button {
 .scale-in-aligned {
   animation: scaleInAligned 0.8s ease-out 0.3s forwards;
   opacity: 0;
+}
+
+/* Stats responsive */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Navbar responsive */
+@media (max-width: 768px) {
+  .nav-desktop { display: none !important; }
+  .nav-mobile-btn { display: block !important; }
+}
+@media (min-width: 769px) {
+  .nav-mobile-menu { display: none !important; }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const CTA = () => {
     return (
@@ -13,7 +14,7 @@ const CTA = () => {
                     color: 'white',
                     position: 'relative',
                     overflow: 'hidden',
-                    boxShadow: '0 25px 50px -12px rgba(18, 20, 129, 0.25)' // Deep Blue shadow
+                    boxShadow: '0 25px 50px -12px rgba(15, 27, 61, 0.25)'
                 }}>
 
                     {/* Background decoration */}
@@ -23,12 +24,13 @@ const CTA = () => {
                         style={{ position: 'relative', zIndex: 1 }}
                     >
                         <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: '800', marginBottom: '2rem' }}>
-                            Ready to Accelerate?
+                            Let's Build Something Great
                         </h2>
                         <p style={{ fontSize: '1.25rem', opacity: 0.9, marginBottom: '3rem', maxWidth: '600px', margin: '0 auto 3rem' }}>
-                            Schedule a personalized session to see how Insignia can transform your business with intelligent solutions.
+                            Discuss your A.I, data, or web development needs with the Quorvin team.
                         </p>
-                        <button
+                        <Link
+                            to="/contact"
                             className="btn"
                             style={{
                                 background: 'white',
@@ -41,15 +43,12 @@ const CTA = () => {
                                 alignItems: 'center',
                                 gap: '0.5rem',
                                 boxShadow: '0 10px 25px rgba(0,0,0,0.1)',
-                                cursor: 'pointer',
-                                border: 'none',
+                                textDecoration: 'none',
                                 transition: 'transform 0.2s'
                             }}
-                            onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-                            onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                         >
-                            Setup Demo Session <ArrowRight size={24} />
-                        </button>
+                    Contact Us <ArrowRight size={24} />
+                        </Link>
                     </div>
                 </div>
             </div>

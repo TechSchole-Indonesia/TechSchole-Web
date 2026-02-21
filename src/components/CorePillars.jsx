@@ -4,20 +4,20 @@ import { Map, Layout, Database } from 'lucide-react';
 const pillars = [
     {
         icon: <Map size={40} />,
-        title: "AI Strategy Workshop",
-        desc: "Identifying high-impact opportunities where AI can drive value in your specific business context.",
+        title: "A.I Integration",
+        desc: "Custom AI solutions — chatbots, predictive models, and automation systems designed around your business processes.",
         color: "blue"
     },
     {
-        icon: <Layout size={40} />,
-        title: "Experience Design",
-        desc: "Crafting intuitive and engaging user experiences to ensure seamless adoption of new technologies.",
+        icon: <Database size={40} />,
+        title: "Data Architecture",
+        desc: "End-to-end data infrastructure setup, from warehousing and ETL pipelines to real-time analytics dashboards.",
         color: "purple"
     },
     {
-        icon: <Database size={40} />,
-        title: "Data Maturity Assessment",
-        desc: "Evaluating the readiness of your data infrastructure to support robust AI models and insights.",
+        icon: <Layout size={40} />,
+        title: "Web & App Development",
+        desc: "Responsive websites, web apps, and digital platforms built with scalable, modern technology stacks.",
         color: "pink"
     }
 ];
@@ -27,8 +27,8 @@ const CorePillars = () => {
         <section className="section-padding" style={{ background: 'var(--light-bg)' }}>
             <div className="container">
                 <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-                    <h2 style={{ fontSize: '2.5rem', fontWeight: '800', color: 'var(--text-dark)' }}>Our Products</h2>
-                    <p style={{ color: '#64748b', marginTop: '1rem', maxWidth: '600px', margin: '1rem auto 0' }}>Kursus teknologi terkini untuk mengembangkan keterampilan digital masa depan.</p>
+                    <h2 style={{ fontSize: '2.5rem', fontWeight: '800', color: 'var(--text-dark)' }}>What We Deliver</h2>
+                    <p style={{ color: '#64748b', marginTop: '1rem', maxWidth: '600px', margin: '1rem auto 0' }}>Comprehensive technology solutions to accelerate your business growth.</p>
                 </div>
 
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>

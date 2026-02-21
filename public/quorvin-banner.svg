@@ -1,0 +1,33 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1584" y2="396" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f1b3d"/>
+      <stop offset="100%" stop-color="#080e1f"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1584" height="396" fill="url(#bg)"/>
+  <!-- Subtle grid -->
+  <line x1="400" y1="0" x2="400" y2="396" stroke="#e8edf5" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="396" stroke="#e8edf5" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="1200" y1="0" x2="1200" y2="396" stroke="#e8edf5" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="0" y1="198" x2="1584" y2="198" stroke="#e8edf5" stroke-opacity="0.05" stroke-width="1"/>
+  <!-- Large Q icon — left side -->
+  <path d="M280 240A110 110 0 1 0 230 280" stroke="#e8edf5" stroke-opacity="0.15" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <line x1="230" y1="270" x2="290" y2="340" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="290" cy="340" r="18" fill="#f0b429" fill-opacity="0.2"/>
+  <!-- Logo icon Q -->
+  <path d="M560 195A44 44 0 1 0 540 210" stroke="#e8edf5" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <line x1="540" y1="206" x2="558" y2="226" stroke="#00d4ff" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="558" cy="226" r="9" fill="#f0b429"/>
+  <!-- Wordmark -->
+  <text x="590" y="210" font-family="Arial, sans-serif" font-weight="800" font-size="56" fill="#e8edf5" letter-spacing="-1">Quor<tspan fill="#00d4ff">vin</tspan></text>
+  <!-- Gold underline under vin -->
+  <line x1="810" y1="220" x2="890" y2="220" stroke="#f0b429" stroke-width="5" stroke-linecap="round"/>
+  <!-- Tagline -->
+  <text x="592" y="255" font-family="Arial, sans-serif" font-weight="400" font-size="20" fill="#e8edf5" fill-opacity="0.6" letter-spacing="4">SEEK. STRUCTURE. CONQUER.</text>
+  <!-- Services -->
+  <text x="592" y="290" font-family="Arial, sans-serif" font-weight="400" font-size="16" fill="#00d4ff" fill-opacity="0.5">AI Consulting · Data Consulting · Web Development</text>
+  <!-- Gold accent line bottom -->
+  <rect x="0" y="388" width="1584" height="8" fill="#f0b429"/>
+</svg>
