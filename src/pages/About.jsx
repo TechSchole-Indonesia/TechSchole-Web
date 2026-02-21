@@ -10,7 +10,7 @@ const About = () => {
             <div style={{ background: 'white', padding: '6rem 0 4rem', textAlign: 'center' }}>
                 <h1 className="fade-in-up" style={{ fontSize: '3rem', fontWeight: '800', color: 'var(--primary)' }}>About TechSchole</h1>
                 <p style={{ color: 'var(--primary)', maxWidth: '600px', margin: '1rem auto', fontSize: '1.2rem' }}>
-                    Platform pendidikan daring untuk masa depan teknologi Indonesia.
+                    A.I, Data & Web Development Consulting for Growing Businesses.
                 </p>
             </div>
 
@@ -19,12 +19,11 @@ const About = () => {
                 <section style={{ marginBottom: '4rem' }}>
                     <h2 style={{ fontSize: '2rem', fontWeight: '700', marginBottom: '1.5rem', borderLeft: '5px solid var(--primary)', paddingLeft: '1rem' }}>Who we are?</h2>
                     <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#475569', background: '#eff6ff', padding: '2rem', borderRadius: '1rem' }}>
-                        TechSchole adalah sebuah platform pendidikan daring yang menyediakan kursus-kursus teknologi terkini
-                        kepada siswa dari berbagai latar belakang. Dengan fokus pada pembelajaran praktis dan interaktif,
-                        TechSchole bertujuan untuk membantu siswa mengembangkan keterampilan teknologi yang diperlukan untuk
-                        berhasil dalam dunia digital saat ini. Dengan kurikulum yang disusun oleh para ahli industri, TechSchole
-                        memberikan pengalaman belajar yang berharga dan relevan bagi para pelajar yang ingin meningkatkan
-                        keahlian teknis mereka.
+                        TechSchole is a technology consulting firm specializing in Artificial Intelligence, Data, and
+                        Web Development. We help businesses of all sizes adopt the right technology — from crafting
+                        A.I strategies and building solid data infrastructure to developing modern, scalable web platforms.
+                        With an experienced team across multiple industries, we deliver measurable solutions that
+                        directly impact our clients' growth.
                     </p>
                 </section>
 
@@ -32,9 +31,8 @@ const About = () => {
                 <section style={{ marginBottom: '4rem' }}>
                     <h2 style={{ fontSize: '2rem', fontWeight: '700', marginBottom: '1.5rem', borderLeft: '5px solid var(--secondary)', paddingLeft: '1rem' }}>Our Vision</h2>
                     <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#475569', background: '#f5f3ff', padding: '2rem', borderRadius: '1rem' }}>
-                        Menjadi pusat pengembangan pendidikan dan teknologi non-formal yang terdepan dan berpengaruh secara
-                        global, menciptakan generasi yang terampil, inovatif, dan siap menghadapi tantangan teknologi industri
-                        dimasa sekarang maupun masa depan.
+                        To be a trusted technology partner for businesses worldwide in implementing A.I, data,
+                        and digital solutions that drive sustainable growth.
                     </p>
                 </section>
 
@@ -43,11 +41,10 @@ const About = () => {
                     <h2 style={{ fontSize: '2rem', fontWeight: '700', marginBottom: '1.5rem', borderLeft: '5px solid var(--accent)', paddingLeft: '1rem' }}>Our Mission</h2>
                     <div style={{ background: '#fff1f2', padding: '2rem', borderRadius: '1rem' }}>
                         <ul style={{ listStyle: 'disc', paddingLeft: '1.5rem', display: 'flex', flexDirection: 'column', gap: '1rem', color: '#475569', fontSize: '1.1rem' }}>
-                            <li>Memberikan pengalaman dengan kurikulum yang relevan dan terkini sesuai dengan perkembangan industri teknologi (AI, IoT, Instrumentasi, Quantum dan sebagainya), untuk mempersiapkan peserta kursus menghadapi kebutuhan pasar kerja yang dinamis.</li>
-                            <li>Membantu meningkatkan peluang pengusaha - pengusaha dalam negeri untuk menyebarluaskan produk mereka sampai ranah global.</li>
-                            <li>Memudahkan masyarakat untuk belajar dan mendapatkan fasilitas kegiatan belajar dan mengajar dimanapun dan kapanpun.</li>
-                            <li>Menyelenggarakan program pendidikan, pelatihan, pengabdian masyarakat dengan industri teknologi terkemuka, untuk memberikan pengalaman praktis dan peluang karir kepada peserta kursus.</li>
-                            <li>Menjalin kerjasama lintas sektor sebagai mitra yang saling bersinergi.</li>
+                            <li>Deliver A.I consulting services that help businesses automate processes, improve efficiency, and make data-driven decisions.</li>
+                            <li>Build modern data infrastructure that enables clients to fully leverage their data assets.</li>
+                            <li>Develop high-quality web solutions and digital platforms that support business operations and growth.</li>
+                            <li>Foster long-term partnerships with clients through a collaborative approach and measurable results.</li>
                         </ul>
                     </div>
                 </section>
