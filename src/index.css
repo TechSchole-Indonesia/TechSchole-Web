@@ -1,18 +1,18 @@
 :root {
-  --primary: #121481;
-  /* TechSchole Deep Blue */
-  --primary-dark: #0a0b5c;
-  /* Darker Blue */
-  --secondary: #FFB1B1;
-  /* Salmon Pink */
-  --accent: #FFCBCB;
-  /* Soft Pink */
-  --dark-bg: #05062d;
-  /* Dark Deep Blue */
+  --primary: #2563eb;
+  /* Corporate Blue */
+  --primary-dark: #1e40af;
+  /* Deep Blue */
+  --secondary: #06b6d4;
+  /* Cyan */
+  --accent: #a5f3fc;
+  /* Light Cyan */
+  --dark-bg: #0f172a;
+  /* Slate */
   --light-bg: #ffffff;
   /* White */
-  --text-dark: #121481;
-  /* Deep Blue Text */
+  --text-dark: #1e293b;
+  /* Dark Slate */
   --text-light: #ffffff;
   /* White */
   --glass: rgba(255, 255, 255, 0.1);
@@ -243,4 +243,11 @@ button {
 .scale-in-aligned {
   animation: scaleInAligned 0.8s ease-out 0.3s forwards;
   opacity: 0;
+}
+
+/* Stats responsive */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }

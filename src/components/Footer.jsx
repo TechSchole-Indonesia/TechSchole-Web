@@ -16,7 +16,7 @@ const Footer = () => {
                             <span style={{ fontSize: '1.5rem', fontWeight: '800', color: 'white' }}>TechSchole</span>
                         </div>
                         <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, maxWidth: '300px' }}>
-                            Empowering businesses through data-driven intelligence and strategic AI transformation.
+                            Helping businesses grow through measurable A.I, data, and web development solutions.
                         </p>
                     </div>
 
@@ -26,7 +26,7 @@ const Footer = () => {
                         <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1rem', color: 'rgba(255,255,255,0.7)' }}>
                             <li style={{ display: 'flex', gap: '0.75rem' }}>
                                 <MapPin size={20} />
-                                <span>Address: Bojongsoang, Bandung Regency, West Java, Indonesia. 40287</span>
+                                <span>Bojongsoang, Bandung, West Java, Indonesia 40287</span>
                             </li>
                         </ul>
                     </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                 </div>
 
                 <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '2rem', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem', color: 'rgba(255,255,255,0.5)', fontSize: '0.9rem' }}>
-                    <p>&copy; {new Date().getFullYear()} TechSchole Indonesia. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} TechSchole. All rights reserved.</p>
                     <div style={{ display: 'flex', gap: '2rem' }}>
                         <a href="#">Privacy Policy</a>
                         <a href="#">Terms of Service</a>

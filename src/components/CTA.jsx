@@ -13,7 +13,7 @@ const CTA = () => {
                     color: 'white',
                     position: 'relative',
                     overflow: 'hidden',
-                    boxShadow: '0 25px 50px -12px rgba(18, 20, 129, 0.25)' // Deep Blue shadow
+                    boxShadow: '0 25px 50px -12px rgba(37, 99, 235, 0.25)' // Teal shadow
                 }}>
 
                     {/* Background decoration */}
@@ -23,10 +23,10 @@ const CTA = () => {
                         style={{ position: 'relative', zIndex: 1 }}
                     >
                         <h2 style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontWeight: '800', marginBottom: '2rem' }}>
-                            Ready to Accelerate?
+                            Let's Build Something Great
                         </h2>
                         <p style={{ fontSize: '1.25rem', opacity: 0.9, marginBottom: '3rem', maxWidth: '600px', margin: '0 auto 3rem' }}>
-                            Schedule a personalized session to see how Insignia can transform your business with intelligent solutions.
+                            Discuss your A.I, data, or web development needs with the TechSchole team.
                         </p>
                         <button
                             className="btn"
@@ -48,7 +48,7 @@ const CTA = () => {
                             onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
                             onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                         >
-                            Setup Demo Session <ArrowRight size={24} />
+                    Contact Us <ArrowRight size={24} />
                         </button>
                     </div>
                 </div>

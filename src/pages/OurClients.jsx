@@ -5,9 +5,9 @@ import { Users } from 'lucide-react';
 const OurClients = () => {
     return (
         <div className="page-transition" style={{ paddingTop: '80px' }}>
-            <div style={{ background: '#1e1b4b', padding: '6rem 0', color: 'white', textAlign: 'center' }}>
+            <div style={{ background: 'var(--primary-dark)', padding: '6rem 0', color: 'white', textAlign: 'center' }}>
                 <h1 className="fade-in-up" style={{ fontSize: '3rem', fontWeight: '800', marginBottom: '1rem' }}>Our Clients</h1>
-                <p style={{ opacity: 0.8, fontSize: '1.2rem' }}>Trusted by leading organizations across Indonesia.</p>
+                <p style={{ opacity: 0.8, fontSize: '1.2rem' }}>Trusted by organizations worldwide.</p>
             </div>
 
             <div className="container" style={{ padding: '6rem 2rem', textAlign: 'center' }}>

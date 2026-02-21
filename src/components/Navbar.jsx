@@ -19,9 +19,8 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
+        { name: 'Services', path: '/product' },
         { name: 'About', path: '/about' },
-        { name: 'Product', path: '/product' },
-        { name: 'Our Clients', path: '/clients' },
         { name: 'Contact', path: '/contact' }
     ];
 
@@ -36,11 +35,11 @@ const Navbar = () => {
                 padding: '1rem 0',
                 background: scrolled || location.pathname !== '/'
                     ? 'rgba(255, 255, 255, 0.85)'
-                    : 'rgba(18, 20, 129, 0.15)',
+                    : 'rgba(37, 99, 235, 0.15)',
                 backdropFilter: 'blur(12px)',
                 WebkitBackdropFilter: 'blur(12px)',
                 borderBottom: scrolled || location.pathname !== '/'
-                    ? '1px solid rgba(18, 20, 129, 0.1)'
+                    ? '1px solid rgba(37, 99, 235, 0.1)'
                     : '1px solid rgba(255, 255, 255, 0.2)',
                 boxShadow: scrolled ? '0 4px 6px -1px rgba(0, 0, 0, 0.1)' : 'none',
                 transition: 'all 0.3s ease'
