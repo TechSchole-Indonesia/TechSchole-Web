@@ -1,26 +1,21 @@
 import { Linkedin, Instagram, MapPin } from 'lucide-react';
+import Logo from './Logo';
 
 const Footer = () => {
-    // Use import.meta.env.BASE_URL for correct path in both dev and production
-    const logoUrl = `${import.meta.env.BASE_URL}TechSchole Logo.png`;
-    
     return (
         <footer style={{ background: 'var(--dark-bg)', borderTop: '1px solid rgba(255,255,255,0.1)', padding: '5rem 0 2rem', color: 'white' }}>
             <div className="container">
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '4rem', marginBottom: '4rem' }}>
 
-                    {/* Brand Info */}
                     <div>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1.5rem' }}>
-                            <img src={logoUrl} alt="TechSchole" style={{ height: '32px' }} />
-                            <span style={{ fontSize: '1.5rem', fontWeight: '800', color: 'white' }}>TechSchole</span>
+                        <div style={{ marginBottom: '1.5rem' }}>
+                            <Logo size={32} light />
                         </div>
                         <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, maxWidth: '300px' }}>
                             Helping businesses grow through measurable A.I, data, and web development solutions.
                         </p>
                     </div>
 
-                    {/* Contact */}
                     <div>
                         <h4 style={{ fontWeight: '700', marginBottom: '1.5rem', color: 'white' }}>Contact</h4>
                         <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1rem', color: 'rgba(255,255,255,0.7)' }}>
@@ -31,7 +26,6 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Social */}
                     <div>
                         <h4 style={{ fontWeight: '700', marginBottom: '1.5rem', color: 'white' }}>Follow Us</h4>
                         <div style={{ display: 'flex', gap: '1rem' }}>
