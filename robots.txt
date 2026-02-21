@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://quorvin.biz.id/sitemap.xml
