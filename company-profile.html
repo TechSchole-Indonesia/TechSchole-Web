@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quorvin — Company Profile</title>
+<style>
+  @page { size: 16in 9in; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #080e1f; color: #e8edf5; }
+  .slide { width: 100vw; height: 100vh; padding: 80px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; page-break-after: always; }
+  .slide::before { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 6px; background: #f0b429; }
+  .navy { background: #0f1b3d; }
+  .dark { background: #080e1f; }
+  .white { background: #e8edf5; color: #0f1b3d; }
+  .white::before { background: #f0b429; }
+  h1 { font-size: 52px; font-weight: 800; letter-spacing: -1px; margin-bottom: 16px; }
+  h2 { font-size: 40px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 32px; }
+  h3 { font-size: 24px; font-weight: 700; margin-bottom: 12px; }
+  p { font-size: 20px; line-height: 1.7; opacity: 0.85; max-width: 800px; }
+  .cyan { color: #00d4ff; }
+  .gold { color: #f0b429; }
+  .tag { font-size: 14px; letter-spacing: 4px; text-transform: uppercase; opacity: 0.5; margin-bottom: 24px; }
+  .logo { display: flex; align-items: center; gap: 12px; margin-bottom: 40px; }
+  .logo svg { flex-shrink: 0; }
+  .logo-text { font-size: 32px; font-weight: 800; letter-spacing: -0.5px; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 40px; margin-top: 20px; }
+  .card { background: rgba(255,255,255,0.05); border-radius: 12px; padding: 36px; border: 1px solid rgba(255,255,255,0.08); }
+  .white .card { background: rgba(15,27,61,0.05); border-color: rgba(15,27,61,0.1); }
+  .card h3 { font-size: 22px; }
+  .card p { font-size: 17px; }
+  .num { font-size: 48px; font-weight: 800; margin-bottom: 8px; }
+  .footer { position: absolute; bottom: 30px; left: 80px; right: 80px; display: flex; justify-content: space-between; font-size: 13px; opacity: 0.4; }
+  .divider { width: 60px; height: 4px; background: #f0b429; border-radius: 2px; margin-bottom: 24px; }
+  .services-icon { font-size: 36px; margin-bottom: 16px; }
+  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 20px; }
+  .contact-item { margin-bottom: 24px; }
+  .contact-item .label { font-size: 14px; letter-spacing: 2px; text-transform: uppercase; opacity: 0.5; margin-bottom: 8px; }
+  .contact-item .value { font-size: 20px; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: Cover -->
+<div class="slide navy" style="justify-content: center; align-items: center; text-align: center;">
+  <div class="logo" style="justify-content: center; margin-bottom: 24px;">
+    <svg width="56" height="56" viewBox="0 0 32 32" fill="none"><path d="M24 20A11 11 0 1 0 20 24" stroke="#e8edf5" stroke-width="3" stroke-linecap="round" fill="none"/><line x1="20" y1="22" x2="25" y2="27" stroke="#00d4ff" stroke-width="3" stroke-linecap="round"/><circle cx="25" cy="27" r="2.5" fill="#f0b429"/></svg>
+    <span class="logo-text">Quor<span class="cyan">vin</span></span>
+  </div>
+  <p class="tag" style="max-width: none;">Seek. Structure. Conquer.</p>
+  <h1 style="font-size: 60px;">Company Profile</h1>
+  <p style="text-align: center; max-width: none; margin-top: 16px;">AI Consulting · Data Consulting · Web Development</p>
+  <div class="footer"><span>quorvin.github.io</span><span>2026</span></div>
+</div>
+
+<!-- SLIDE 2: About -->
+<div class="slide dark">
+  <div class="tag">About Us</div>
+  <div class="divider"></div>
+  <h2>We turn <span class="cyan">questions</span> into <span class="gold">victories</span>.</h2>
+  <p>Quorvin is a strategic intelligence partner specializing in AI, Data, and Web Development consulting. We help businesses navigate complexity — transforming raw data into structured insight, and insight into decisive action.</p>
+  <p style="margin-top: 20px;">Our name comes from Latin: <em>Quaerere</em> (to seek) and <em>Vincere</em> (to conquer). Every engagement follows this philosophy — we seek the right questions, structure the path, and deliver results that matter.</p>
+  <div class="footer"><span>Quorvin — Company Profile</span><span>02</span></div>
+</div>
+
+<!-- SLIDE 3: Pillars -->
+<div class="slide navy">
+  <div class="tag">Our Philosophy</div>
+  <div class="divider"></div>
+  <h2>Three Pillars of Quorvin</h2>
+  <div class="grid3">
+    <div class="card">
+      <div class="num" style="color: #e8edf5;">01</div>
+      <h3>QUAERE</h3>
+      <p class="cyan" style="font-size: 14px; letter-spacing: 2px; margin-bottom: 12px;">SEEK</p>
+      <p>Ask the right questions. Explore the unknown. Understand the problem before proposing solutions.</p>
+    </div>
+    <div class="card">
+      <div class="num cyan">02</div>
+      <h3>ORDO</h3>
+      <p class="cyan" style="font-size: 14px; letter-spacing: 2px; margin-bottom: 12px;">STRUCTURE</p>
+      <p>Organize chaos into clarity. Build frameworks, architect systems, create order from complexity.</p>
+    </div>
+    <div class="card">
+      <div class="num gold">03</div>
+      <h3>VINCE</h3>
+      <p class="gold" style="font-size: 14px; letter-spacing: 2px; margin-bottom: 12px;">CONQUER</p>
+      <p>Deliver decisive results. Ship solutions that create measurable impact and lasting advantage.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Quorvin — Company Profile</span><span>03</span></div>
+</div>
+
+<!-- SLIDE 4: Services -->
+<div class="slide dark">
+  <div class="tag">What We Do</div>
+  <div class="divider"></div>
+  <h2>Our Services</h2>
+  <div class="grid3">
+    <div class="card">
+      <div class="services-icon">🧠</div>
+      <h3>AI Consulting</h3>
+      <p>Strategy, implementation, and optimization of AI/ML solutions. From proof-of-concept to production-grade systems.</p>
+    </div>
+    <div class="card">
+      <div class="services-icon">📊</div>
+      <h3>Data Consulting</h3>
+      <p>Data architecture, pipeline engineering, analytics, and visualization. Turn your data into your strongest asset.</p>
+    </div>
+    <div class="card">
+      <div class="services-icon">🌐</div>
+      <h3>Web Development</h3>
+      <p>Modern, performant web applications. From landing pages to full-stack platforms built with cutting-edge technology.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Quorvin — Company Profile</span><span>04</span></div>
+</div>
+
+<!-- SLIDE 5: Product -->
+<div class="slide navy">
+  <div class="tag">Our Product</div>
+  <div class="divider"></div>
+  <h2>Insight<span class="cyan">Ops</span></h2>
+  <p>Our flagship analytics platform that transforms raw operational data into actionable intelligence. InsightOps provides real-time dashboards, automated reporting, and predictive analytics — giving your team the clarity to make faster, smarter decisions.</p>
+  <div class="grid3" style="margin-top: 40px;">
+    <div class="card" style="text-align: center;">
+      <div class="num cyan">⚡</div>
+      <h3>Real-time Analytics</h3>
+      <p>Live dashboards with sub-second data refresh</p>
+    </div>
+    <div class="card" style="text-align: center;">
+      <div class="num gold">📈</div>
+      <h3>Predictive Insights</h3>
+      <p>ML-powered forecasting and anomaly detection</p>
+    </div>
+    <div class="card" style="text-align: center;">
+      <div class="num" style="color: #e8edf5;">🔗</div>
+      <h3>Seamless Integration</h3>
+      <p>Connects to your existing data stack</p>
+    </div>
+  </div>
+  <div class="footer"><span>Quorvin — Company Profile</span><span>05</span></div>
+</div>
+
+<!-- SLIDE 6: Why Quorvin -->
+<div class="slide white">
+  <div class="tag" style="color: #0f1b3d;">Why Quorvin</div>
+  <div class="divider"></div>
+  <h2>What Sets Us Apart</h2>
+  <div class="grid3">
+    <div class="card">
+      <h3 class="cyan">T-Shaped Expertise</h3>
+      <p>Broad knowledge across AI, Data & Web — with deep specialization where it matters most.</p>
+    </div>
+    <div class="card">
+      <h3 class="gold">Philosophy-Driven</h3>
+      <p>Every project follows Seek → Structure → Conquer. No guesswork, no shortcuts — just disciplined execution.</p>
+    </div>
+    <div class="card">
+      <h3>Results-Obsessed</h3>
+      <p>We measure success by your outcomes, not our hours. Decisive action, measurable impact.</p>
+    </div>
+  </div>
+  <div class="footer" style="color: #0f1b3d;"><span>Quorvin — Company Profile</span><span>06</span></div>
+</div>
+
+<!-- SLIDE 7: Contact -->
+<div class="slide navy" style="justify-content: center;">
+  <div class="logo" style="margin-bottom: 32px;">
+    <svg width="48" height="48" viewBox="0 0 32 32" fill="none"><path d="M24 20A11 11 0 1 0 20 24" stroke="#e8edf5" stroke-width="3" stroke-linecap="round" fill="none"/><line x1="20" y1="22" x2="25" y2="27" stroke="#00d4ff" stroke-width="3" stroke-linecap="round"/><circle cx="25" cy="27" r="2.5" fill="#f0b429"/></svg>
+    <span class="logo-text">Quor<span class="cyan">vin</span></span>
+  </div>
+  <h2>Let's <span class="gold">Conquer</span> Together.</h2>
+  <div class="contact-grid">
+    <div>
+      <div class="contact-item">
+        <div class="label">Website</div>
+        <div class="value">quorvin.github.io</div>
+      </div>
+      <div class="contact-item">
+        <div class="label">Email</div>
+        <div class="value">hello@quorvin.com</div>
+      </div>
+    </div>
+    <div>
+      <div class="contact-item">
+        <div class="label">Location</div>
+        <div class="value">Bandung, Indonesia</div>
+      </div>
+      <div class="contact-item">
+        <div class="label">LinkedIn</div>
+        <div class="value">linkedin.com/company/quorvin</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><span>Quorvin — Company Profile</span><span>07</span></div>
+</div>
+
+</body>
+</html>
