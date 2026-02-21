@@ -251,3 +251,12 @@ button {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
+
+/* Navbar responsive */
+@media (max-width: 768px) {
+  .nav-desktop { display: none !important; }
+  .nav-mobile-btn { display: block !important; }
+}
+@media (min-width: 769px) {
+  .nav-mobile-menu { display: none !important; }
+}
