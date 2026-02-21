@@ -1,5 +1,9 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="8" fill="#2563eb"/>
-  <path d="M8 10h16v3H18.5v12h-5V13H8v-3z" fill="#ffffff"/>
-  <circle cx="24" cy="8" r="3" fill="#06b6d4"/>
+  <rect width="32" height="32" rx="3" fill="#0f1b3d"/>
+  <!-- Q — thick circle, open at bottom-right -->
+  <path d="M24 20A11 11 0 1 0 20 24" stroke="#e8edf5" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Q tail — short cyan stroke -->
+  <line x1="20" y1="22" x2="25" y2="27" stroke="#00d4ff" stroke-width="3" stroke-linecap="round"/>
+  <!-- Gold dot -->
+  <circle cx="25" cy="27" r="2.5" fill="#f0b429"/>
 </svg>
