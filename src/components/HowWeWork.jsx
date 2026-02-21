@@ -19,7 +19,7 @@ const HowWeWork = () => {
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>
                     {steps.map((s, i) => (
                         <div key={i} style={{ background: 'white', padding: '2.5rem 2rem', borderRadius: '1.5rem', border: '1px solid #e2e8f0', position: 'relative', overflow: 'hidden' }}>
-                            <span style={{ position: 'absolute', top: '1.5rem', right: '1.5rem', fontSize: '3rem', fontWeight: '800', color: 'rgba(37,99,235,0.08)' }}>{s.step}</span>
+                            <span style={{ position: 'absolute', top: '1.5rem', right: '1.5rem', fontSize: '3rem', fontWeight: '800', color: 'rgba(15,27,61,0.08)' }}>{s.step}</span>
                             <div style={{ color: 'var(--primary)', marginBottom: '1.25rem' }}>{s.icon}</div>
                             <h3 style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--text-dark)', marginBottom: '0.75rem' }}>{s.title}</h3>
                             <p style={{ color: '#64748b', lineHeight: 1.6 }}>{s.desc}</p>

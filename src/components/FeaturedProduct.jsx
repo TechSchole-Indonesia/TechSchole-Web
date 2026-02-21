@@ -41,7 +41,7 @@ const FeaturedProduct = () => {
                 </div>
 
                 {/* Customizable */}
-                <div style={{ display: 'flex', gap: '1rem', marginBottom: '3rem', background: '#eff6ff', padding: '1.5rem 2rem', borderRadius: '1rem', border: '1px solid #bfdbfe' }}>
+                <div style={{ display: 'flex', gap: '1rem', marginBottom: '3rem', background: 'rgba(15, 27, 61, 0.05)', padding: '1.5rem 2rem', borderRadius: '1rem', border: '1px solid rgba(0, 212, 255, 0.2)' }}>
                     <Settings size={24} style={{ color: 'var(--primary)', flexShrink: 0, marginTop: '2px' }} />
                     <div>
                         <h4 style={{ color: '#080e1f', fontWeight: '700', marginBottom: '0.5rem' }}>Built to Adapt</h4>
