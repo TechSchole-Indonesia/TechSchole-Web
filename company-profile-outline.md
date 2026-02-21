@@ -73,8 +73,8 @@ We measure success by your outcomes, not our hours. Decisive action, measurable 
 
 ### Slide 7: Contact
 
-- Website: quorvin.github.io
-- Email: hello@quorvin.com
+- Website: quorvin.biz.id
+- Email: info@quorvin.id
 - Location: Bandung, Indonesia
 - LinkedIn: linkedin.com/company/quorvin
 
