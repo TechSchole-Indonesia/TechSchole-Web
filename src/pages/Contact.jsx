@@ -8,7 +8,7 @@ const Contact = () => {
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'start' }}>
 
                     <div>
-                        <h1 className="fade-in-up" style={{ fontSize: '3rem', fontWeight: '800', marginBottom: '1.5rem', color: '#1e293b' }}>Get in Touch</h1>
+                        <h1 className="fade-in-up" style={{ fontSize: '3rem', fontWeight: '800', marginBottom: '1.5rem', color: '#0f1b3d' }}>Get in Touch</h1>
                         <p style={{ fontSize: '1.2rem', color: '#64748b', marginBottom: '3rem' }}>
                             Have a question or want to collaborate? Reach out to us.
                         </p>
@@ -25,7 +25,7 @@ const Contact = () => {
                                 <div style={{ background: '#eff6ff', padding: '1rem', borderRadius: '50%', color: 'var(--primary)' }}><Mail /></div>
                                 <div>
                                     <h3 style={{ fontWeight: '700' }}>Email Us</h3>
-                                    <p style={{ color: '#64748b' }}>info@techschole.id</p>
+                                    <p style={{ color: '#64748b' }}>info@quorvin.id</p>
                                 </div>
                             </div>
                         </div>

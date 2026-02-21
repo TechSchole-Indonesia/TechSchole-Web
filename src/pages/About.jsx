@@ -8,7 +8,7 @@ const About = () => {
             {/* Header */}
             {/* Header */}
             <div style={{ background: 'white', padding: '6rem 0 4rem', textAlign: 'center' }}>
-                <h1 className="fade-in-up" style={{ fontSize: '3rem', fontWeight: '800', color: 'var(--primary)' }}>About TechSchole</h1>
+                <h1 className="fade-in-up" style={{ fontSize: '3rem', fontWeight: '800', color: 'var(--primary)' }}>About Quorvin</h1>
                 <p style={{ color: 'var(--primary)', maxWidth: '600px', margin: '1rem auto', fontSize: '1.2rem' }}>
                     A.I, Data & Web Development Consulting for Growing Businesses.
                 </p>
@@ -19,7 +19,7 @@ const About = () => {
                 <section style={{ marginBottom: '4rem' }}>
                     <h2 style={{ fontSize: '2rem', fontWeight: '700', marginBottom: '1.5rem', borderLeft: '5px solid var(--primary)', paddingLeft: '1rem' }}>Who we are?</h2>
                     <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#475569', background: '#eff6ff', padding: '2rem', borderRadius: '1rem' }}>
-                        TechSchole is a technology consulting firm specializing in Artificial Intelligence, Data, and
+                        Quorvin is a technology consulting firm specializing in Artificial Intelligence, Data, and
                         Web Development. We help businesses of all sizes adopt the right technology — from crafting
                         A.I strategies and building solid data infrastructure to developing modern, scalable web platforms.
                         With an experienced team across multiple industries, we deliver measurable solutions that

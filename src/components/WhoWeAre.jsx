@@ -11,7 +11,7 @@ const WhoWeAre = () => {
                         Your Partner in <span className="gradient-text">Intelligent Growth</span>
                     </h2>
                     <p style={{ color: '#64748b', lineHeight: 1.8, fontSize: '1.1rem', marginBottom: '3rem' }}>
-                        TechSchole is more than just a tech consultancy. We help businesses leverage A.I, build solid data foundations, and create digital experiences that drive real results — from strategy to execution.
+                        Quorvin is more than just a tech consultancy. We help businesses leverage A.I, build solid data foundations, and create digital experiences that drive real results — from strategy to execution.
                     </p>
 
                     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>

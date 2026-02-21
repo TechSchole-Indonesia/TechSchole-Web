@@ -26,7 +26,7 @@ const CTA = () => {
                             Let's Build Something Great
                         </h2>
                         <p style={{ fontSize: '1.25rem', opacity: 0.9, marginBottom: '3rem', maxWidth: '600px', margin: '0 auto 3rem' }}>
-                            Discuss your A.I, data, or web development needs with the TechSchole team.
+                            Discuss your A.I, data, or web development needs with the Quorvin team.
                         </p>
                         <button
                             className="btn"

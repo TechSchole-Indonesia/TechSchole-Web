@@ -1,20 +1,20 @@
 :root {
-  --primary: #2563eb;
-  /* Corporate Blue */
-  --primary-dark: #1e40af;
-  /* Deep Blue */
-  --secondary: #06b6d4;
-  /* Cyan */
-  --accent: #a5f3fc;
-  /* Light Cyan */
-  --dark-bg: #0f172a;
-  /* Slate */
+  --primary: #0f1b3d;
+  /* Deep Navy */
+  --primary-dark: #080e1f;
+  /* Near Black */
+  --secondary: #00d4ff;
+  /* Electric Cyan */
+  --accent: #f0b429;
+  /* Warm Gold */
+  --dark-bg: #080e1f;
+  /* Near Black */
   --light-bg: #ffffff;
   /* White */
-  --text-dark: #1e293b;
-  /* Dark Slate */
-  --text-light: #ffffff;
-  /* White */
+  --text-dark: #0f1b3d;
+  /* Deep Navy */
+  --text-light: #e8edf5;
+  /* Cool White */
   --glass: rgba(255, 255, 255, 0.1);
   --glass-border: rgba(255, 255, 255, 0.2);
 

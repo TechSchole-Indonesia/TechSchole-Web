@@ -29,7 +29,7 @@ const Footer = () => {
                     <div>
                         <h4 style={{ fontWeight: '700', marginBottom: '1.5rem', color: 'white' }}>Follow Us</h4>
                         <div style={{ display: 'flex', gap: '1rem' }}>
-                            <a href="https://www.linkedin.com/company/techschole" style={{ background: 'rgba(255,255,255,0.1)', padding: '0.75rem', borderRadius: '50%', border: '1px solid rgba(255,255,255,0.2)', color: 'white' }}>
+                            <a href="https://www.linkedin.com/company/quorvin" style={{ background: 'rgba(255,255,255,0.1)', padding: '0.75rem', borderRadius: '50%', border: '1px solid rgba(255,255,255,0.2)', color: 'white' }}>
                                 <Linkedin size={24} />
                             </a>
                             <a href="#" style={{ background: 'rgba(255,255,255,0.1)', padding: '0.75rem', borderRadius: '50%', border: '1px solid rgba(255,255,255,0.2)', color: 'white' }}>
@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
 
                 <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '2rem', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem', color: 'rgba(255,255,255,0.5)', fontSize: '0.9rem' }}>
-                    <p>&copy; {new Date().getFullYear()} TechSchole. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Quorvin. All rights reserved.</p>
                     <div style={{ display: 'flex', gap: '2rem' }}>
                         <a href="#">Privacy Policy</a>
                         <a href="#">Terms of Service</a>

@@ -13,7 +13,7 @@ const Platforms = () => {
             <div className="container" style={{ padding: '4rem 2rem' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
                     {[
-                        { icon: <Layers size={40} />, title: "TechSchole Hub", desc: "Centralized platform for managing AI models, data pipelines, and project workflows." },
+                        { icon: <Layers size={40} />, title: "Quorvin Hub", desc: "Centralized platform for managing AI models, data pipelines, and project workflows." },
                         { icon: <Box size={40} />, title: "Data Nexus", desc: "Unified data integration and orchestration engine for enterprise analytics." },
                         { icon: <Cpu size={40} />, title: "Web Studio", desc: "Rapid development and deployment environment for modern web applications." }
                     ].map((item, idx) => (

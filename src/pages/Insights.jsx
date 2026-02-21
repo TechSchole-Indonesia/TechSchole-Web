@@ -5,7 +5,7 @@ const Insights = () => {
     return (
         <div className="page-transition" style={{ paddingTop: '80px' }}>
             <div style={{ padding: '6rem 0', textAlign: 'center', background: '#f8fafc' }}>
-                <h1 className="fade-in-up" style={{ fontSize: '3rem', fontWeight: '800', color: '#1e293b' }}>Insights & Research</h1>
+                <h1 className="fade-in-up" style={{ fontSize: '3rem', fontWeight: '800', color: '#0f1b3d' }}>Insights & Research</h1>
                 <p style={{ color: '#64748b', fontSize: '1.2rem', marginTop: '1rem' }}>Latest trends and analysis from our experts.</p>
             </div>
 
