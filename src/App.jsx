@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router basename="/TechSchole-Web">
+    <Router basename="/Quorvin-Web">
       <div className="App">
         <ScrollToTop />
         <Navbar />
