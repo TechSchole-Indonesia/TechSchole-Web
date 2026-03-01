@@ -45,7 +45,7 @@ const Hero = () => {
                 </div>
 
                 {/* Abstract geometric visual */}
-                <div style={{ position: 'relative', width: '100%', maxWidth: '700px', height: '200px' }}>
+                <div className="md-hide" style={{ position: 'relative', width: '100%', maxWidth: '700px', height: '200px' }}>
                     {/* Three pillars */}
                     <div style={{ display: 'flex', justifyContent: 'center', gap: '3rem', alignItems: 'flex-end' }}>
                         {[

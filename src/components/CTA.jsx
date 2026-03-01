@@ -8,8 +8,8 @@ const CTA = () => {
             <div className="container">
                 <div style={{
                     background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%)',
-                    borderRadius: '3rem',
-                    padding: '6rem 2rem',
+                    borderRadius: '2rem',
+                    padding: 'clamp(3rem, 8vw, 6rem) 1.5rem',
                     textAlign: 'center',
                     color: 'white',
                     position: 'relative',
@@ -47,7 +47,7 @@ const CTA = () => {
                                 transition: 'transform 0.2s'
                             }}
                         >
-                    Contact Us <ArrowRight size={24} />
+                            Contact Us <ArrowRight size={24} />
                         </Link>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ const FeaturedProduct = () => {
                 </div>
 
                 {/* Problem */}
-                <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', background: '#fef2f2', padding: '1.5rem 2rem', borderRadius: '1rem', border: '1px solid #fecaca' }}>
+                <div className="md-stack" style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', background: '#fef2f2', padding: '1.5rem 2rem', borderRadius: '1rem', border: '1px solid #fecaca' }}>
                     <AlertTriangle size={24} style={{ color: '#dc2626', flexShrink: 0, marginTop: '2px' }} />
                     <div>
                         <h4 style={{ color: '#991b1b', fontWeight: '700', marginBottom: '0.5rem' }}>The Problem</h4>
@@ -30,7 +30,7 @@ const FeaturedProduct = () => {
                 </div>
 
                 {/* Solution */}
-                <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', background: '#f0fdf4', padding: '1.5rem 2rem', borderRadius: '1rem', border: '1px solid #bbf7d0' }}>
+                <div className="md-stack" style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', background: '#f0fdf4', padding: '1.5rem 2rem', borderRadius: '1rem', border: '1px solid #bbf7d0' }}>
                     <CheckCircle size={24} style={{ color: '#16a34a', flexShrink: 0, marginTop: '2px' }} />
                     <div>
                         <h4 style={{ color: '#166534', fontWeight: '700', marginBottom: '0.5rem' }}>How InsightOps Solves It</h4>
@@ -41,7 +41,7 @@ const FeaturedProduct = () => {
                 </div>
 
                 {/* Customizable */}
-                <div style={{ display: 'flex', gap: '1rem', marginBottom: '3rem', background: 'rgba(15, 27, 61, 0.05)', padding: '1.5rem 2rem', borderRadius: '1rem', border: '1px solid rgba(0, 212, 255, 0.2)' }}>
+                <div className="md-stack" style={{ display: 'flex', gap: '1rem', marginBottom: '3rem', background: 'rgba(15, 27, 61, 0.05)', padding: '1.5rem 2rem', borderRadius: '1rem', border: '1px solid rgba(0, 212, 255, 0.2)' }}>
                     <Settings size={24} style={{ color: 'var(--primary)', flexShrink: 0, marginTop: '2px' }} />
                     <div>
                         <h4 style={{ color: '#080e1f', fontWeight: '700', marginBottom: '0.5rem' }}>Built to Adapt</h4>
@@ -67,7 +67,7 @@ const FeaturedProduct = () => {
                         background: 'var(--primary)', color: 'white', padding: '0.875rem 2rem',
                         borderRadius: '9999px', fontWeight: '700', textDecoration: 'none'
                     }}>
-                        Request a Demo <ArrowRight size={18} />
+                        Coming Soon <ArrowRight size={18} />
                     </Link>
                 </div>
             </div>

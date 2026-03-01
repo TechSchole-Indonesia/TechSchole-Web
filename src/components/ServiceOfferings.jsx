@@ -31,7 +31,7 @@ const ServiceOfferings = () => {
                     <h2 style={{ fontSize: '2.5rem', fontWeight: '800' }}>Our Expertise</h2>
                 </div>
 
-                <div style={{ display: 'flex', gap: '2rem', overflowX: 'auto', paddingBottom: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                <div style={{ display: 'flex', gap: '2rem', paddingBottom: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                     {services.map((service, index) => (
                         <div
                             key={index}
@@ -42,8 +42,8 @@ const ServiceOfferings = () => {
                                 border: '1px solid rgba(255,255,255,0.1)',
                                 padding: '3rem',
                                 borderRadius: '2rem',
-                                width: '350px',
-                                flexShrink: 0,
+                                width: '100%',
+                                maxWidth: '400px',
                                 display: 'flex',
                                 flexDirection: 'column',
                                 gap: '1.5rem',

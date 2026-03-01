@@ -54,6 +54,7 @@ button {
 .gradient-text {
   background: linear-gradient(to right, var(--primary), var(--secondary));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -252,11 +253,68 @@ button {
   }
 }
 
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  .section-padding {
+    padding: 3.5rem 0;
+  }
+
+  h1 {
+    font-size: 2.25rem !important;
+  }
+
+  h2 {
+    font-size: 1.85rem !important;
+  }
+
+  h3 {
+    font-size: 1.5rem !important;
+  }
+}
+
 /* Navbar responsive */
 @media (max-width: 768px) {
-  .nav-desktop { display: none !important; }
-  .nav-mobile-btn { display: block !important; }
+  .nav-desktop {
+    display: none !important;
+  }
+
+  .nav-mobile-btn {
+    display: block !important;
+  }
 }
+
 @media (min-width: 769px) {
-  .nav-mobile-menu { display: none !important; }
+  .nav-mobile-menu {
+    display: none !important;
+  }
+}
+
+/* Helper Classes for Mobile */
+.mobile-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .md-stack {
+    flex-direction: column !important;
+  }
+
+  .md-hide {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .sm-hide {
+    display: none !important;
+  }
 }
